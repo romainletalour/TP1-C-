@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "clang++-11 - Générer et déboguer le fichier actif",
+            "type": "lldb",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/RPG",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "preLaunchTask": "Build",
+        }
+    ]
+}
